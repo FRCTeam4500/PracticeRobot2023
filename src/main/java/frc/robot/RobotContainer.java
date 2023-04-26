@@ -1,7 +1,6 @@
 package frc.robot;
 
 import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
-import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
@@ -43,6 +42,13 @@ public class RobotContainer {
     // public Command getAutonomousCommand() {
     //     return autonChooser.getSelected();
     // }
+    public Command getAutonomousCommand() {
+        return null;
+    }
+
+    public void teleopInit() {
+
+    }
 
     // public void teleopInit() {
     //     Command auton = autonChooser.getSelected();

@@ -11,6 +11,7 @@ public class Constants {
     }
 
     public static class FlywheelConstants {
-        public static int FLYWHEEL_MOTOR_ID = 3;
+        public static int FLYWHEEL_1_MOTOR_ID = 3;
+        public static int FLYWHEEL_2_MOTOR_ID = 4;
     }
 }
